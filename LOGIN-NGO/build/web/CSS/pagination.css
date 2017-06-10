@@ -1,0 +1,48 @@
+.page
+{
+    
+    margin: 0px auto;
+}
+
+.list-of-posts
+{
+    min-height:500px;  
+}
+
+.pagination li
+{
+    list-style:none;  
+    float:left;
+    width : 20px;
+    height:20px;
+    border: 1px solid #D3D3D3;
+    background-color:#C0C0C0;
+    color:black;
+    text-align:center;
+    cursor:pointer;
+    padding : 30px;
+    margin:20px;
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 5px, 5px, 5px, #808080
+}
+
+.pagination li:hover
+{
+    background-color: white;
+    border:1px solid black;
+    color: black;
+}
+
+.pagination ul
+{
+    border: 0px;
+    padding: 0px;
+}
+
+.active-class
+{
+	background-color: white !important;
+    border:1px solid black !important;
+    color: black !important;	
+}
